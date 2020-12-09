@@ -1612,6 +1612,9 @@ python-flask-restful:
   fedora: [python-flask-restful]
   gentoo: [dev-python/flask-restful]
   ubuntu:
+    bionic:
+      pip:
+        packages: [flask-restful]
     saucy:
       pip:
         packages: [flask-restful]
